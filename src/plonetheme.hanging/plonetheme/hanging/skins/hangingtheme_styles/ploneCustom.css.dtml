@@ -43,6 +43,10 @@ dl.actionMenu a {
 }
 */
 
+#portal-personaltools a{
+    color:#000;
+}
+
 /* If you want variables in the CSS (for example for colors that are used     *
  * in several locations), Plone has a built-in facility for this. An example  *
  * is shown below, the variables are defined in the file "base_properties",   *

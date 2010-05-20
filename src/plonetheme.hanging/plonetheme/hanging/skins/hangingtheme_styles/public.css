@@ -398,6 +398,7 @@ a.managePortletsFallback {
 	border-radius: 0.5em;
 	-webkit-border-radius: 0.5em;
 	-moz-border-radius: 0.5em;
+	color:#000000;
 }
 
 #content a.managePortletsFallback {
@@ -494,14 +495,17 @@ dl.portlet {
 
 #content a:link,
 dl.portlet a:link {
-	color: #205c90;
-	border-bottom: 0.1em solid #ccc;
+    height: 25px;
+	color: #696969;
+	font-weight:bold;
+	border-bottom: 0.1em solid #ddd;
+	
 }
 
 #content a:visited, 
 dl.portlet a:visited {
 	color: #427597;
-	border-bottom: 0.1em solid #ccc;
+	
 }
 #content a:focus,
 #content a:hover,
