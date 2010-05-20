@@ -353,6 +353,7 @@ div.portletAssignments div.portletHeader {
 	background: #ddd;
 	line-height: 2.5em;
 }
+
 div.portletAssignments {
 	font-size: 0.8em;
 	line-height: 2em;
@@ -493,8 +494,7 @@ dl.portlet {
 	
 }
 
-#content a:link,
-dl.portlet a:link {
+#content a:link {
     height: 25px;
 	color: #696969;
 	font-weight:bold;

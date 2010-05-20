@@ -47,6 +47,44 @@ dl.actionMenu a {
     color:#000;
 }
 
+
+dl.portlet .portletHeader{
+    color:#454545;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:22px;
+    font-weight:normal;
+    margin:0;
+    text-transform:capitalize;
+    background: transparent;
+    padding-left:0.1em;
+}
+
+dl.portlet .portletHeader a {
+    color:#454545 !important;
+    font-weight: normal;
+}
+
+dl.portlet a:link {
+    color:#696969;
+    text-decoration:none;
+}
+
+dl.portletRss , 
+dl.portletNews  {
+    padding:0 1em;
+}
+dl.portletRss dd.portletItem , 
+dl.portletNews dd.portletItem {
+/*    padding-left: 2em;*/
+    background: url("img04.gif") repeat-x scroll left bottom transparent
+}
+
+dl.portletRss .portletItemDetails,
+dl.portletNews .portletItemDetails {
+    color:#454545;
+}
+
+
 /* If you want variables in the CSS (for example for colors that are used     *
  * in several locations), Plone has a built-in facility for this. An example  *
  * is shown below, the variables are defined in the file "base_properties",   *
