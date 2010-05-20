@@ -2,7 +2,7 @@
  * 60em is equivalent to 960px in this case, and every       *
  * grid cell will be 40px with 10px padding.                 */
 
-/* #visual-portal-wrapper { width: 60em; margin: 0 auto; } */
+#visual-portal-wrapper { width: 60em; margin: 0 auto; }
 
 /* To change the link color (or the navigation link  background), uncomment *
  * the selectors below, and insert new color values:                        */
