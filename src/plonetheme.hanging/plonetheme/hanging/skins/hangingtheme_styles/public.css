@@ -132,6 +132,29 @@ q {
 	color: #205c90;
 }
 
+#portal-column-one{
+    background: #fff;
+    border-right: 1px solid #ddd4d9;
+    /*Let's provide some spacing between #portal-globalnav and columns*/
+    border-top: 2em solid #ffffff;
+}
+
+#portal-columns {
+    background: url("portal_columns.gif") transparent repeat-y;
+}
+
+#portal-column-content {
+    margin-top:2em;
+}
+
+#portal-column-two{
+    background: #fff;
+    border-left: 1px solid #ddd4d9;
+    /*Let's provide some spacing between #portal-globalnav and columns*/
+    border-top: 2em solid #ffffff;
+}
+
+
 
 #portal-personaltools {
 	float: right;
