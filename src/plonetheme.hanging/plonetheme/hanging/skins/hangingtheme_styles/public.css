@@ -141,6 +141,7 @@ q {
 
 #portal-columns {
     background: url("portal_columns.gif") transparent repeat-y;
+    padding-bottom:1em;
 }
 
 #portal-column-content {
@@ -1517,9 +1518,24 @@ dl.toc dd ol {
 
 #portal-footer {
 	font-size: 75%;
-	background: #ddd;
+	background: #000;
 	padding: 1em; 
-	margin: 1em 0;
+	padding-top:2em;
+	margin: 0 0 1em;
+}
+
+#portal-footer p{
+color:#999999;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:10px;
+    margin:0;
+    text-align:center;
+    text-transform:uppercase;
+    line-height:2em;
+}
+
+#portal-footer a {
+    color:#EDE7DB;
 }
 
 #portal-colophon {
