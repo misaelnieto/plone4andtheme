@@ -1,0 +1,5 @@
+  plonetheme.hanging is copyright (c) 2010 Noe Nieto
+
+  This program is free software; you can redistribute it and/or modify
+  it under the terms of the Creative Commons Attribution 3.0 Unported
+  due to the requirements of http://www.freecsstemplates.org

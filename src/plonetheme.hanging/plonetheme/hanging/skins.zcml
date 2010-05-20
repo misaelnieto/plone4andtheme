@@ -1,0 +1,11 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:cmf="http://namespaces.zope.org/cmf"
+    i18n_domain="plonetheme.hanging">
+
+  <!-- File System Directory Views registration -->
+  <cmf:registerDirectory name="hangingtheme_images"/>
+  <cmf:registerDirectory name="hangingtheme_templates"/>
+  <cmf:registerDirectory name="hangingtheme_styles"/>
+
+</configure>

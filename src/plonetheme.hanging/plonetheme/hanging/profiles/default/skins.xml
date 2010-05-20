@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<object name="portal_skins" allow_any="False" cookie_persistence="False"
+   default_skin="FreeCSSTemplates.org Hanging">
+
+ <object name="hangingtheme_images"
+    meta_type="Filesystem Directory View"
+    directory="plonetheme.hanging:skins/hangingtheme_images"/>
+ <object name="hangingtheme_templates"
+    meta_type="Filesystem Directory View"
+    directory="plonetheme.hanging:skins/hangingtheme_templates"/>
+ <object name="hangingtheme_styles"
+    meta_type="Filesystem Directory View"
+    directory="plonetheme.hanging:skins/hangingtheme_styles"/>
+
+ <skin-path name="FreeCSSTemplates.org Hanging" based-on="Sunburst Theme">
+  <layer name="hangingtheme_images"
+     insert-after="custom"/>
+  <layer name="hangingtheme_templates"
+     insert-after="hangingtheme_images"/>
+  <layer name="hangingtheme_styles"
+     insert-after="hangingtheme_templates"/>
+ </skin-path>
+
+</object>

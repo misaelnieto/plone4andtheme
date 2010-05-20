@@ -1,0 +1,22 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="plonetheme.hanging">
+
+  <genericsetup:registerProfile
+      name="default"
+      title="FreeCSSTemplates.org Hanging"
+      directory="profiles/default"
+      description='Extension profile for the "FreeCSSTemplates.org Hanging" Plone theme.'
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+  <genericsetup:importStep
+      name="plonetheme.hanging.various"
+      title="FreeCSSTemplates.org Hanging: miscellaneous import steps"
+      description="Various import steps that are not handled by GS import/export handlers."
+      handler="plonetheme.hanging.setuphandlers.setupVarious">
+    <depends name="skins"/>
+  </genericsetup:importStep>
+
+</configure>
