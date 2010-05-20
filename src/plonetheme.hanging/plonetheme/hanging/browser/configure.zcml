@@ -11,6 +11,15 @@
       />
   
   <!-- Viewlets registration -->
+    <!-- Footer -->
+    <browser:viewlet
+        name="plone.footer"
+        for="*"
+        manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+        layer=".interfaces.IThemeSpecific"
+        class=".viewlets.hanghingFooterViewlet"
+        permission="zope.Public"
+        />  
   <!-- Zope 3 browser resources -->
 
   <!-- Resource directory for images -->
