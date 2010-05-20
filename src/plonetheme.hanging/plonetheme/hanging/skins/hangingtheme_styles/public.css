@@ -29,10 +29,10 @@ img { vertical-align: text-bottom; }
 /* @group Basics */
 
 body { 
-	font: 100% Arial, FreeSans, sans-serif;
-	background: White;
-	color: Black;
-	/* width: 58em; margin: 1em auto; */
+    background:url("img01.gif") repeat-x scroll left top #EDE7DB;
+    color:#696969;
+    font-family:Tahoma,Arial,Helvetica,sans-serif;
+    font-size:100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
