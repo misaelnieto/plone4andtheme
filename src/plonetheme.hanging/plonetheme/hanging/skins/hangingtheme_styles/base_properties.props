@@ -2,7 +2,7 @@ title:string=NOT USED in the Sunburst theme by default, see ploneCustom.css for 
 
 plone_skin:string=Sunburst Theme
 
-logoName:string=logo.png
+logoName:string=plone-logo-56.png
 
 fontFamily:string="Helvetica Neue", Arial, FreeSans, sans-serif; 
 linkColor:string=#205c90
